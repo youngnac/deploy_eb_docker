@@ -40,6 +40,7 @@ for key, key_dict in config_common.items():
     for inner_key, inner_key_dict in key_dict.items():
         config[key][inner_key] = inner_key_dict
 
+# ALLOWED_HOSTS = []
 ALLOWED_HOSTS = config['django']['allowed_hosts']
 
 # Quick-start development settings - unsuitable for production
