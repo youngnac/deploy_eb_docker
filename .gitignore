@@ -6,6 +6,7 @@ media/
 *.sqlite
 /static_root
 /media
+_Dockerfile_base
 #Config folders
 .conf-secret/
 
