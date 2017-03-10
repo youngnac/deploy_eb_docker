@@ -20,6 +20,7 @@ ROOT_DIR = os.path.dirname(BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
+
 CONFIG_FILE_COMMON = os.path.join(os.path.join(os.path.dirname(BASE_DIR), '.conf-secret'), 'settings_common.json')
 config_common = json.loads(open(CONFIG_FILE_COMMON).read())
 CONFIG_FILE = os.path.join(os.path.join(os.path.dirname(BASE_DIR), '.conf-secret'), 'settings_local.json')
